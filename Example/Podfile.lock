@@ -1,0 +1,16 @@
+PODS:
+  - AppsOnAir (0.1.0)
+
+DEPENDENCIES:
+  - AppsOnAir (from `../`)
+
+EXTERNAL SOURCES:
+  AppsOnAir:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AppsOnAir: 89840a67e952a49031c593e3daceda1d042f0593
+
+PODFILE CHECKSUM: 6ac3b34c2fce1e38834288073fad2536a9c27a60
+
+COCOAPODS: 1.11.2
