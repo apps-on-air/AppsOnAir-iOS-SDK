@@ -13,9 +13,9 @@ public class UpdateManager : NSObject {
     private var appId: String = ""
     private var window: UIWindow?
     
-    public func setAppId(_ appId: String, isShowNativeUI: Bool = false) -> (Void) {
+    public func setAppId(_ appId: String, showNativeUI: Bool = false) -> (Void) {
         self.appId = appId;
-        if(isShowNativeUI) {
+        if(showNativeUI) {
             AppUpdateRequest.fetchAppUpdate(self.appId) { (appUpdateData) in
                 let items = appUpdateData.count;
                 if (items > 0) {
