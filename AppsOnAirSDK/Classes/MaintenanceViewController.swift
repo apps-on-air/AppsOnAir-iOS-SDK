@@ -118,6 +118,8 @@ class MaintenanceViewController: UIViewController {
                 self.staticMaintenanceText.text = "\(Bundle.main.appName!) app is under maintenance"
                 self.staticMaintenanceText.sizeToFit()
             }
+        } else {
+            self.dismiss(animated: false, completion: nil)
         }
     }
     
