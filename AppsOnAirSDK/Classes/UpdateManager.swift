@@ -13,7 +13,7 @@ public class UpdateManager : NSObject {
     private var appId: String = ""
     private var window: UIWindow?
     
-    public func setAppId(_ appId: String, showNativeUI: Bool = false) -> (Void) {
+    public func setAppId(_ appId: String,_ showNativeUI: Bool = false) -> (Void) {
         self.appId = appId;
         if(showNativeUI) {
             AppUpdateRequest.fetchAppUpdate(self.appId) { (appUpdateData) in
@@ -27,7 +27,10 @@ public class UpdateManager : NSObject {
                         let navController = UINavigationController(rootViewController: modalVc)
                         navController.modalPresentationStyle = .overCurrentContext
                         let topController = UIApplication.topMostViewController()
-                        topController?.present(navController, animated: true, completion: nil)
+                        topController?.present(navController, animated: true) {
+                            // This code snippet is for fixing one UI accessbility related bug for our other cross platform plugin
+                            NotificationCenter.default.post(name: NSNotification.Name("visibilityChanges"), object: nil, userInfo: ["isPresented": true])
+                        }
                     }
                 }
             }

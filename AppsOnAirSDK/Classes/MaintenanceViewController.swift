@@ -73,12 +73,12 @@ class MaintenanceViewController: UIViewController {
                         if builNumber == .orderedAscending {
                             self.showUpdateView(isForceUpdate!)
                         } else {
-                            self.dismiss(animated: false, completion: nil)
+                            self.dismissController()
                         }
                     } else if versionCompare == .orderedAscending {
                         self.showUpdateView(isForceUpdate!)
                     } else {
-                        self.dismiss(animated: false, completion: nil)
+                        self.dismissController()
                     }
                 }
             }
@@ -119,7 +119,7 @@ class MaintenanceViewController: UIViewController {
                 self.staticMaintenanceText.sizeToFit()
             }
         } else {
-            self.dismiss(animated: false, completion: nil)
+            self.dismissController()
         }
     }
     
@@ -138,8 +138,15 @@ class MaintenanceViewController: UIViewController {
         self.maintenanceView.isHidden = true
     }
     
+    func dismissController() {
+        self.dismiss(animated: true) {
+            // This code snippet is for fixing one UI accessbility related bug for our other cross platform plugin
+            NotificationCenter.default.post(name: NSNotification.Name("visibilityChanges"), object: nil, userInfo: ["isPresented": false])
+        }
+    }
+    
     @IBAction func onTapDismissButton(_ sender: UIButton) {
-        self.dismiss(animated: true, completion: nil)
+        self.dismissController()
     }
     
     @IBAction func onTapUpdateButton(_ sender: Any) {
