@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 import AVFoundation
 
-public class UpdateManager : NSObject {
+public class AppsOnAirServices : NSObject {
     private var appId: String = ""
     private var window: UIWindow?
     

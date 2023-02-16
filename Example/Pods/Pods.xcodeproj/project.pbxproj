@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		029395780A985D86F556A2DB228F5646 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		04E91FBEA79CD04EDAD25DF471B029BF /* MaintenanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303C2829F0972A7656A6C4EB82089919 /* MaintenanceViewController.swift */; };
-		111064026D6E3D1A85C5496079F4A346 /* AppsOnAir-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7167847CC9E5D106B6442384C0562F7 /* AppsOnAir-dummy.m */; };
-		31AE09580BB3DA3C84BE19CB250918E3 /* Bundle+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7526D5DF9A7B8E6C09F792CF62795C /* Bundle+extension.swift */; };
-		5AC8C2769F2E043CE495F16047CAD285 /* AppsOnAir-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 813A95BEC6A98EAF200C07A33C8595C0 /* AppsOnAir-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		219A050312DD5A152AE15BB7DCF7BECA /* UIImage+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED20891F5A480180FF5014ABE3A92059 /* UIImage+extension.swift */; };
+		5AC8C2769F2E043CE495F16047CAD285 /* AppsOnAir-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6453363C0ACC496F689FD2C4B260A67D /* AppsOnAir-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6B79FA8C4B77C4FBE5F8C7E1E9BDDBFB /* Pods-AppsOnAirSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E514B51DF54B9C37C1AA24103B6FDC9 /* Pods-AppsOnAirSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		781CB09EDFE7BDA8C059104ED581A478 /* AppUpdate.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BF11513E346165C75A470D846C5CA30 /* AppUpdate.storyboard */; };
-		7B62C0C9DAADAADD7873993CA49CAA51 /* UIImage+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA57958FFE3641E4AC09BC37F8B9731 /* UIImage+extension.swift */; };
+		76DE4CF5377293C544F6D5FD296336EC /* AppsOnAirServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECB20E99B29ED39E37F67635204DC9A /* AppsOnAirServices.swift */; };
+		781CB09EDFE7BDA8C059104ED581A478 /* AppUpdate.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FF69C5299125F899935FD2E9018A74E /* AppUpdate.storyboard */; };
+		91EE31819CB512E9DF9985861AB37A61 /* Bundle+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E48D582EF1715F3D79EA67C933E1FCD /* Bundle+extension.swift */; };
+		9823555D69E5F026C49D284D864025CB /* MaintenanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944D8A560ACBAF0E8217874E453531F0 /* MaintenanceViewController.swift */; };
 		AB20EA700D5F8CCB00E2E661B5003B3F /* Pods-AppsOnAirSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D3301D85306CE80DAC60432902A01957 /* Pods-AppsOnAirSDK_Tests-dummy.m */; };
-		B37BFE248418C655097CB2C659B38641 /* UIApplication+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A629E8784A2781DA2F07BF0CB9114A /* UIApplication+extension.swift */; };
+		C407C012F8B6A7DD8700E1B99BBBF8C8 /* AppsOnAir-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB577828B6EEBB29F1E89AF0E0DC2BE /* AppsOnAir-dummy.m */; };
+		C858F451343D38B09B043E903DA953C6 /* UIApplication+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FEC9F181F6823C823A6C654B62FF56 /* UIApplication+extension.swift */; };
 		CA76A10B2D4C394C1CF3B134CEC041A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		CB0F961896E9741EC7BFE081FBBF15D8 /* Pods-AppsOnAirSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F375E98120039D8F1998B3B587C220A0 /* Pods-AppsOnAirSDK_Example-dummy.m */; };
-		CCE324B471DE5A54F7489383444C8CA3 /* UpdateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40862E645BD63A9F39705454CB60F4EF /* UpdateManager.swift */; };
-		D6D5E4B5BE518F438001E3D5C5CDCA56 /* AppUpdateRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D962ACDEFB56E4F24D1531CBA9BE8500 /* AppUpdateRequest.swift */; };
 		D752596E9408DFAD15EA0A67654151AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		E00B8B2C0C6433064B3BFC0E449F9B60 /* UIImageView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC23308756CB260FB679CCEB30F399CA /* UIImageView+extension.swift */; };
-		F57E11C6023FD357E46A099EA0DC00D6 /* UIColor+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C98569C40FA4B7FABD4ACE7551D924D /* UIColor+extension.swift */; };
+		E0C0B6DFA144FFF63660C8C80DD27EA2 /* UIImageView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437ECF7D0758E90FA84622C46917856 /* UIImageView+extension.swift */; };
+		EFAD9D0603A4B126A1CEB09F94614261 /* AppUpdateRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132FB03BE8FA44E19C590CB4CE398AC7 /* AppUpdateRequest.swift */; };
+		FDA687FC7D05605F1EBC56DDBDA4DFE1 /* UIColor+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83596946756CE917A7ED210DA9911E13 /* UIColor+extension.swift */; };
 		FF43E576AF796ED43A2C2813D2729684 /* Pods-AppsOnAirSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC09FAFDC1CAE2661779733BCA6CC8CC /* Pods-AppsOnAirSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -45,47 +45,47 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0437ECF7D0758E90FA84622C46917856 /* UIImageView+extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+extension.swift"; path = "AppsOnAirSDK/Classes/UIImageView+extension.swift"; sourceTree = "<group>"; };
 		0556D2A2188BE341944E15E2D1070E5E /* Pods-AppsOnAirSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AppsOnAirSDK_Tests.modulemap"; sourceTree = "<group>"; };
-		0827ED4AB4DE1312844A5508D736D81A /* AppsOnAir.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AppsOnAir.modulemap; sourceTree = "<group>"; };
-		0BF11513E346165C75A470D846C5CA30 /* AppUpdate.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = AppUpdate.storyboard; path = AppsOnAirSDK/Assets/AppUpdate.storyboard; sourceTree = "<group>"; };
 		0E514B51DF54B9C37C1AA24103B6FDC9 /* Pods-AppsOnAirSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AppsOnAirSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		132FB03BE8FA44E19C590CB4CE398AC7 /* AppUpdateRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppUpdateRequest.swift; path = AppsOnAirSDK/Classes/AppUpdateRequest.swift; sourceTree = "<group>"; };
+		1E48D582EF1715F3D79EA67C933E1FCD /* Bundle+extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+extension.swift"; path = "AppsOnAirSDK/Classes/Bundle+extension.swift"; sourceTree = "<group>"; };
 		21EB1CF5240374D7366601DC7E5B61FB /* Pods-AppsOnAirSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppsOnAirSDK_Example-Info.plist"; sourceTree = "<group>"; };
-		303C2829F0972A7656A6C4EB82089919 /* MaintenanceViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaintenanceViewController.swift; path = AppsOnAirSDK/Classes/MaintenanceViewController.swift; sourceTree = "<group>"; };
 		3106225135053C5F8108FCF686EB272E /* Pods-AppsOnAirSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AppsOnAirSDK_Example.modulemap"; sourceTree = "<group>"; };
-		36A629E8784A2781DA2F07BF0CB9114A /* UIApplication+extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIApplication+extension.swift"; path = "AppsOnAirSDK/Classes/UIApplication+extension.swift"; sourceTree = "<group>"; };
-		3C98569C40FA4B7FABD4ACE7551D924D /* UIColor+extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+extension.swift"; path = "AppsOnAirSDK/Classes/UIColor+extension.swift"; sourceTree = "<group>"; };
-		40862E645BD63A9F39705454CB60F4EF /* UpdateManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UpdateManager.swift; path = AppsOnAirSDK/Classes/UpdateManager.swift; sourceTree = "<group>"; };
 		411A84CFA647258878CD92C2880464A0 /* AppsOnAir */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AppsOnAir; path = AppsOnAir.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		531186D8B3E18F3281B0BAC57789E5BE /* AppsOnAir.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AppsOnAir.debug.xcconfig; sourceTree = "<group>"; };
-		65559CF3C24A9787FD98E958CFD7DF5D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4C7AF76F80DF983AE1D16B0BB911B341 /* AppsOnAir-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AppsOnAir-Info.plist"; sourceTree = "<group>"; };
+		520F7D343A502C6EF75BFA202072B61A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6453363C0ACC496F689FD2C4B260A67D /* AppsOnAir-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AppsOnAir-umbrella.h"; sourceTree = "<group>"; };
+		69FF3228424E3711B6272A66BB7B5F1E /* AppsOnAir.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AppsOnAir.debug.xcconfig; sourceTree = "<group>"; };
 		6C9E10D87AC6527267C9DB23E972ACE6 /* Pods-AppsOnAirSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AppsOnAirSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		6DC7C8935C071166E7FB8496C07A715F /* AppsOnAir-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AppsOnAir-prefix.pch"; sourceTree = "<group>"; };
+		6FBD85117D75434CAE04C34850D661A2 /* AppsOnAir.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AppsOnAir.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		77DA5D9FB9A220EB87CABA003194CE07 /* AppsOnAir.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AppsOnAir.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7661829E74E198182FC800845CAC5380 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		7D82668F6F687187669A111B4BF80603 /* Pods-AppsOnAirSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppsOnAirSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		813A4AAFB9EB73658DFD52C3207C78C1 /* Pods-AppsOnAirSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AppsOnAirSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		813A95BEC6A98EAF200C07A33C8595C0 /* AppsOnAir-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AppsOnAir-umbrella.h"; sourceTree = "<group>"; };
-		822F19A8EA1224E52263C97133255889 /* AppsOnAir.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AppsOnAir.release.xcconfig; sourceTree = "<group>"; };
+		83596946756CE917A7ED210DA9911E13 /* UIColor+extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+extension.swift"; path = "AppsOnAirSDK/Classes/UIColor+extension.swift"; sourceTree = "<group>"; };
 		84D164A49C5679A8B04A8D8B150A3B98 /* Pods-AppsOnAirSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppsOnAirSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		880799C1EB1D4A1274BA806BEECCD468 /* Pods-AppsOnAirSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppsOnAirSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8C92B3636223DC8E22E78E14B26DBA37 /* Pods-AppsOnAirSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppsOnAirSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		8FC31543CB289E38691097A744455306 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		944D8A560ACBAF0E8217874E453531F0 /* MaintenanceViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaintenanceViewController.swift; path = AppsOnAirSDK/Classes/MaintenanceViewController.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FF69C5299125F899935FD2E9018A74E /* AppUpdate.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = AppUpdate.storyboard; path = AppsOnAirSDK/Assets/AppUpdate.storyboard; sourceTree = "<group>"; };
 		AB838129C5028C64FA5F41787CE38EBF /* Pods-AppsOnAirSDK_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AppsOnAirSDK_Tests"; path = Pods_AppsOnAirSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE60F4C4AE4DD60EA6D66C8430C9ADBC /* Pods-AppsOnAirSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppsOnAirSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		B11F99E8DFD43B4F48BF58F61FCE5FD2 /* Pods-AppsOnAirSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AppsOnAirSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		BC7526D5DF9A7B8E6C09F792CF62795C /* Bundle+extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+extension.swift"; path = "AppsOnAirSDK/Classes/Bundle+extension.swift"; sourceTree = "<group>"; };
+		BAD7D0A785E9962323293FD09250DA4B /* AppsOnAir.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AppsOnAir.modulemap; sourceTree = "<group>"; };
 		D3301D85306CE80DAC60432902A01957 /* Pods-AppsOnAirSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AppsOnAirSDK_Tests-dummy.m"; sourceTree = "<group>"; };
-		D962ACDEFB56E4F24D1531CBA9BE8500 /* AppUpdateRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppUpdateRequest.swift; path = AppsOnAirSDK/Classes/AppUpdateRequest.swift; sourceTree = "<group>"; };
+		D4FEC9F181F6823C823A6C654B62FF56 /* UIApplication+extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIApplication+extension.swift"; path = "AppsOnAirSDK/Classes/UIApplication+extension.swift"; sourceTree = "<group>"; };
 		DC09FAFDC1CAE2661779733BCA6CC8CC /* Pods-AppsOnAirSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AppsOnAirSDK_Example-umbrella.h"; sourceTree = "<group>"; };
 		E2C9AB8DC59752FB074A37BC426D4D2D /* Pods-AppsOnAirSDK_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AppsOnAirSDK_Example"; path = Pods_AppsOnAirSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC111D44A7B253557729E8EB17D50E10 /* AppsOnAir-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AppsOnAir-Info.plist"; sourceTree = "<group>"; };
-		EC23308756CB260FB679CCEB30F399CA /* UIImageView+extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+extension.swift"; path = "AppsOnAirSDK/Classes/UIImageView+extension.swift"; sourceTree = "<group>"; };
+		ECB577828B6EEBB29F1E89AF0E0DC2BE /* AppsOnAir-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AppsOnAir-dummy.m"; sourceTree = "<group>"; };
+		ED20891F5A480180FF5014ABE3A92059 /* UIImage+extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+extension.swift"; path = "AppsOnAirSDK/Classes/UIImage+extension.swift"; sourceTree = "<group>"; };
 		EDC89FF58E9D8794877740507BC3CA0F /* Pods-AppsOnAirSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppsOnAirSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EFCA1A5FC82FF4FA277855B091A347BF /* AppsOnAir.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AppsOnAir.release.xcconfig; sourceTree = "<group>"; };
 		F295D9CA90E953B57867C7CD566FF670 /* Pods-AppsOnAirSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppsOnAirSDK_Tests-Info.plist"; sourceTree = "<group>"; };
 		F375E98120039D8F1998B3B587C220A0 /* Pods-AppsOnAirSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AppsOnAirSDK_Example-dummy.m"; sourceTree = "<group>"; };
-		F6B1A926BDF3DFF781734AE44EF557F6 /* AppsOnAir-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AppsOnAir-prefix.pch"; sourceTree = "<group>"; };
-		F7167847CC9E5D106B6442384C0562F7 /* AppsOnAir-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AppsOnAir-dummy.m"; sourceTree = "<group>"; };
-		FAA57958FFE3641E4AC09BC37F8B9731 /* UIImage+extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+extension.swift"; path = "AppsOnAirSDK/Classes/UIImage+extension.swift"; sourceTree = "<group>"; };
+		FECB20E99B29ED39E37F67635204DC9A /* AppsOnAirServices.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppsOnAirServices.swift; path = AppsOnAirSDK/Classes/AppsOnAirServices.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,25 +116,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0EB3C62E7409B55F73F28A0B662002AE /* AppsOnAir */ = {
-			isa = PBXGroup;
-			children = (
-				0BF11513E346165C75A470D846C5CA30 /* AppUpdate.storyboard */,
-				D962ACDEFB56E4F24D1531CBA9BE8500 /* AppUpdateRequest.swift */,
-				BC7526D5DF9A7B8E6C09F792CF62795C /* Bundle+extension.swift */,
-				303C2829F0972A7656A6C4EB82089919 /* MaintenanceViewController.swift */,
-				36A629E8784A2781DA2F07BF0CB9114A /* UIApplication+extension.swift */,
-				3C98569C40FA4B7FABD4ACE7551D924D /* UIColor+extension.swift */,
-				FAA57958FFE3641E4AC09BC37F8B9731 /* UIImage+extension.swift */,
-				EC23308756CB260FB679CCEB30F399CA /* UIImageView+extension.swift */,
-				40862E645BD63A9F39705454CB60F4EF /* UpdateManager.swift */,
-				BFD1AF1530C24E7B277ECFA39891F9EE /* Pod */,
-				A73FFE29DF935D50CC0517FFFA58FE65 /* Support Files */,
-			);
-			name = AppsOnAir;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		14A181B9B13E013D41BBCFB60486A2B6 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,10 +143,25 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		5F98D4E0EE43F22CDF4D1D9370FD9ADF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BAD7D0A785E9962323293FD09250DA4B /* AppsOnAir.modulemap */,
+				ECB577828B6EEBB29F1E89AF0E0DC2BE /* AppsOnAir-dummy.m */,
+				4C7AF76F80DF983AE1D16B0BB911B341 /* AppsOnAir-Info.plist */,
+				6DC7C8935C071166E7FB8496C07A715F /* AppsOnAir-prefix.pch */,
+				6453363C0ACC496F689FD2C4B260A67D /* AppsOnAir-umbrella.h */,
+				69FF3228424E3711B6272A66BB7B5F1E /* AppsOnAir.debug.xcconfig */,
+				EFCA1A5FC82FF4FA277855B091A347BF /* AppsOnAir.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AppsOnAir";
+			sourceTree = "<group>";
+		};
 		6A79366E73EA1105B70A3EC5674C1421 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0EB3C62E7409B55F73F28A0B662002AE /* AppsOnAir */,
+				DF1DCC3D7F2F2E41100F2D4193D2787D /* AppsOnAir */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -184,31 +180,6 @@
 			);
 			name = "Pods-AppsOnAirSDK_Tests";
 			path = "Target Support Files/Pods-AppsOnAirSDK_Tests";
-			sourceTree = "<group>";
-		};
-		A73FFE29DF935D50CC0517FFFA58FE65 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0827ED4AB4DE1312844A5508D736D81A /* AppsOnAir.modulemap */,
-				F7167847CC9E5D106B6442384C0562F7 /* AppsOnAir-dummy.m */,
-				EC111D44A7B253557729E8EB17D50E10 /* AppsOnAir-Info.plist */,
-				F6B1A926BDF3DFF781734AE44EF557F6 /* AppsOnAir-prefix.pch */,
-				813A95BEC6A98EAF200C07A33C8595C0 /* AppsOnAir-umbrella.h */,
-				531186D8B3E18F3281B0BAC57789E5BE /* AppsOnAir.debug.xcconfig */,
-				822F19A8EA1224E52263C97133255889 /* AppsOnAir.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/AppsOnAir";
-			sourceTree = "<group>";
-		};
-		BFD1AF1530C24E7B277ECFA39891F9EE /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				77DA5D9FB9A220EB87CABA003194CE07 /* AppsOnAir.podspec */,
-				65559CF3C24A9787FD98E958CFD7DF5D /* LICENSE */,
-				8FC31543CB289E38691097A744455306 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -230,6 +201,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D338CDC2D7C51D6C36DA6E0E77983A41 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6FBD85117D75434CAE04C34850D661A2 /* AppsOnAir.podspec */,
+				7661829E74E198182FC800845CAC5380 /* LICENSE */,
+				520F7D343A502C6EF75BFA202072B61A /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		DCC5B06F8291529ED0B34798D80EC395 /* Pods-AppsOnAirSDK_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -245,6 +226,25 @@
 			);
 			name = "Pods-AppsOnAirSDK_Example";
 			path = "Target Support Files/Pods-AppsOnAirSDK_Example";
+			sourceTree = "<group>";
+		};
+		DF1DCC3D7F2F2E41100F2D4193D2787D /* AppsOnAir */ = {
+			isa = PBXGroup;
+			children = (
+				FECB20E99B29ED39E37F67635204DC9A /* AppsOnAirServices.swift */,
+				9FF69C5299125F899935FD2E9018A74E /* AppUpdate.storyboard */,
+				132FB03BE8FA44E19C590CB4CE398AC7 /* AppUpdateRequest.swift */,
+				1E48D582EF1715F3D79EA67C933E1FCD /* Bundle+extension.swift */,
+				944D8A560ACBAF0E8217874E453531F0 /* MaintenanceViewController.swift */,
+				D4FEC9F181F6823C823A6C654B62FF56 /* UIApplication+extension.swift */,
+				83596946756CE917A7ED210DA9911E13 /* UIColor+extension.swift */,
+				ED20891F5A480180FF5014ABE3A92059 /* UIImage+extension.swift */,
+				0437ECF7D0758E90FA84622C46917856 /* UIImageView+extension.swift */,
+				D338CDC2D7C51D6C36DA6E0E77983A41 /* Pod */,
+				5F98D4E0EE43F22CDF4D1D9370FD9ADF /* Support Files */,
+			);
+			name = AppsOnAir;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -320,7 +320,7 @@
 			buildConfigurationList = B04625DB6AB77B6D86DBE8714CA7D6E8 /* Build configuration list for PBXNativeTarget "AppsOnAir" */;
 			buildPhases = (
 				BBB9DC923DFAFD05D280C71CF905D2AF /* Headers */,
-				7C9127A7E49DD54E6F9C4DF00E5C561A /* Sources */,
+				F05FFBC55F326E182F758C2C6FFFA9F0 /* Sources */,
 				F369CAB5A0FE3D047F8ACAF19BC2F961 /* Frameworks */,
 				5E11E71A977789FD717DD7F6EB67A8F8 /* Resources */,
 			);
@@ -404,19 +404,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7C9127A7E49DD54E6F9C4DF00E5C561A /* Sources */ = {
+		F05FFBC55F326E182F758C2C6FFFA9F0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				111064026D6E3D1A85C5496079F4A346 /* AppsOnAir-dummy.m in Sources */,
-				D6D5E4B5BE518F438001E3D5C5CDCA56 /* AppUpdateRequest.swift in Sources */,
-				31AE09580BB3DA3C84BE19CB250918E3 /* Bundle+extension.swift in Sources */,
-				04E91FBEA79CD04EDAD25DF471B029BF /* MaintenanceViewController.swift in Sources */,
-				B37BFE248418C655097CB2C659B38641 /* UIApplication+extension.swift in Sources */,
-				F57E11C6023FD357E46A099EA0DC00D6 /* UIColor+extension.swift in Sources */,
-				7B62C0C9DAADAADD7873993CA49CAA51 /* UIImage+extension.swift in Sources */,
-				E00B8B2C0C6433064B3BFC0E449F9B60 /* UIImageView+extension.swift in Sources */,
-				CCE324B471DE5A54F7489383444C8CA3 /* UpdateManager.swift in Sources */,
+				C407C012F8B6A7DD8700E1B99BBBF8C8 /* AppsOnAir-dummy.m in Sources */,
+				76DE4CF5377293C544F6D5FD296336EC /* AppsOnAirServices.swift in Sources */,
+				EFAD9D0603A4B126A1CEB09F94614261 /* AppUpdateRequest.swift in Sources */,
+				91EE31819CB512E9DF9985861AB37A61 /* Bundle+extension.swift in Sources */,
+				9823555D69E5F026C49D284D864025CB /* MaintenanceViewController.swift in Sources */,
+				C858F451343D38B09B043E903DA953C6 /* UIApplication+extension.swift in Sources */,
+				FDA687FC7D05605F1EBC56DDBDA4DFE1 /* UIColor+extension.swift in Sources */,
+				219A050312DD5A152AE15BB7DCF7BECA /* UIImage+extension.swift in Sources */,
+				E0C0B6DFA144FFF63660C8C80DD27EA2 /* UIImageView+extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,7 +440,7 @@
 /* Begin XCBuildConfiguration section */
 		0223F25762BB26AC566D840A70C06ADA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 822F19A8EA1224E52263C97133255889 /* AppsOnAir.release.xcconfig */;
+			baseConfigurationReference = EFCA1A5FC82FF4FA277855B091A347BF /* AppsOnAir.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -540,7 +540,7 @@
 		};
 		525D82AB42C50BD7520F2DEB98827E81 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 531186D8B3E18F3281B0BAC57789E5BE /* AppsOnAir.debug.xcconfig */;
+			baseConfigurationReference = 69FF3228424E3711B6272A66BB7B5F1E /* AppsOnAir.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

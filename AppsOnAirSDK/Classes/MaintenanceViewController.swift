@@ -149,11 +149,24 @@ class MaintenanceViewController: UIViewController {
         self.dismissController()
     }
     
+    func verifyUrl(_ urlString: String?) -> Bool {
+        guard let urlString = urlString,
+              let url = URL(string: urlString) else {
+            return false
+        }
+
+        return UIApplication.shared.canOpenURL(url)
+    }
+    
     @IBAction func onTapUpdateButton(_ sender: Any) {
         if let updateData = self.updateDataDictionary?.value(forKey: "updateData") as? NSDictionary {
             if let updateUrl = updateData.value(forKey: "iosUpdateLink") as? String {
-                let url = URL(string: updateUrl)
-                UIApplication.shared.open(url!)
+                let urlStr = updateUrl.hasPrefix("https://") || updateUrl.hasPrefix("http://") || updateUrl.hasPrefix("itms-apps://") ? updateUrl : "https://\(updateUrl)"
+                let checkUrl = verifyUrl(urlStr)
+                if checkUrl == true {
+                    let url = URL(string: urlStr)
+                    UIApplication.shared.open(url!)
+                }
             }
         }
     }
