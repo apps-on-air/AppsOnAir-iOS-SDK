@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AppsOnAir'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'AppsOnAir is library for managing app updates and its maintenance.'
 
   s.description      = 'AppsOnAir is library for managing app updates and its maintenance. It will handle from out web portal.'
