@@ -17,10 +17,14 @@ struct AppUpdateRequest {
             do {
                 // make sure this JSON is in the format we expect
                 // convert data to json
-                if let json = try JSONSerialization.jsonObject(with: data!, options: []) as? [String: Any] {
-                    // try to read out a dictionary
-                    print(json)
-                    completion(json as NSDictionary)
+                if(data != nil) {
+                    if let json = try JSONSerialization.jsonObject(with: data!, options: []) as? [String: Any] {
+                        // try to read out a dictionary
+                        print(json)
+                        completion(json as NSDictionary)
+                    }
+                } else {
+                    completion([:])
                 }
             } catch let error as NSError {
                 print("Failed to load: \(error.localizedDescription)")
