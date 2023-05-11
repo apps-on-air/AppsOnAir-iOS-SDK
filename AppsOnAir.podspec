@@ -19,9 +19,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/apps-on-air/AppsOnAir-iOS-SDK.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '10.0'
-
   s.swift_version = '5.0'
-  s.ios.deployment_target = '10.0'
 
   s.source_files = 'AppsOnAirSDK/Classes/**/*'
   s.resources = ['AppsOnAirSDK/Assets/AppUpdate.storyboard']
