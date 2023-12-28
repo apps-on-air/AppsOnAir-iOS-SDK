@@ -1,5 +1,5 @@
 PODS:
-  - AppsOnAir (0.1.2)
+  - AppsOnAir (0.1.5)
 
 DEPENDENCIES:
   - AppsOnAir (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AppsOnAir: 6298ff43c34b669b9e46ae7167139d1975d99c15
+  AppsOnAir: 7a0c5443954906ac86f22dc1147a5ced2a1da8b0
 
 PODFILE CHECKSUM: 6ac3b34c2fce1e38834288073fad2536a9c27a60
 
-COCOAPODS: 1.11.2
+COCOAPODS: 1.12.1

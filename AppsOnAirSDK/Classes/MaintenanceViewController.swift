@@ -20,7 +20,6 @@ class MaintenanceViewController: UIViewController {
     @IBOutlet weak var staticMaintenanceView: UIView!
     @IBOutlet weak var customMaintenanceView: UIView!
     @IBOutlet weak var maintenanceLogoImageView: UIImageView!
-    @IBOutlet weak var appTitleText: UILabel!
     @IBOutlet weak var maintenanceTitleText: UILabel!
     @IBOutlet weak var maintenanceReasonText: UILabel!
     @IBOutlet weak var staticMaintenanceImageView: UIImageView!
@@ -89,7 +88,6 @@ class MaintenanceViewController: UIViewController {
                 self.customMaintenanceView.isHidden = false
                 self.staticMaintenanceView.isHidden = true
                 self.updateView.isHidden = true
-                self.appTitleText.text = Bundle.main.appName
                 if let imageUrlStr = maintenanceData.value(forKey: "image") as? String {
                     let imageUrl = URL(string: imageUrlStr)
                     self.maintenanceLogoImageView.load(url: imageUrl!)
@@ -106,7 +104,6 @@ class MaintenanceViewController: UIViewController {
                 if let textColor = maintenanceData.value(forKey: "textColorCode") as? String {
                     self.maintenanceReasonText.textColor = UIColor(hex: textColor)
                     self.maintenanceTitleText.textColor = UIColor(hex: textColor)
-                    self.appTitleText.textColor = UIColor(hex: textColor)
                 }
                 self.maintenanceTitleText.sizeToFit()
                 self.maintenanceReasonText.sizeToFit()
