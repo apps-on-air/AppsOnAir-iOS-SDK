@@ -10,14 +10,16 @@ import UIKit
 import AppsOnAir
 
 class ViewController: UIViewController {
-
+    
+    let appUpdateManager = AppsOnAirServices()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let appUpdateManager = AppsOnAirServices()
+        
         // Please replace your APP_ID from https://appsonair.com
-        // appUpdateManager.setAppId(APP_ID: "XXXXX-XXXX-XXXX-XXXX-XXXXXXXX", showNativeUI: true/false)
-        appUpdateManager.setAppId("XXXXX-XXXX-XXXX-XXXX-XXXXXXXX", true)
+        //  appUpdateManager.setAppId(APP_ID: "XXXXX-XXXX-XXXX-XXXX-XXXXXXXX", showNativeUI: true/false)
+         appUpdateManager.setAppId("XXXXX-XXXX-XXXX-XXXX-XXXXXXXX", true)
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -25,6 +27,5 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
 }
 

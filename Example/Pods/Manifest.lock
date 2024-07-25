@@ -1,16 +1,23 @@
 PODS:
-  - AppsOnAir (0.1.2)
+  - AppsOnAir (0.1.6):
+    - ReachabilitySwift
+  - ReachabilitySwift (5.0.0)
 
 DEPENDENCIES:
   - AppsOnAir (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - ReachabilitySwift
 
 EXTERNAL SOURCES:
   AppsOnAir:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AppsOnAir: 6298ff43c34b669b9e46ae7167139d1975d99c15
+  AppsOnAir: f22059e88a80c26ecc43c2c771bda6d7adcdd3d2
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
 
-PODFILE CHECKSUM: 6ac3b34c2fce1e38834288073fad2536a9c27a60
+PODFILE CHECKSUM: 88d3e1026bd96d5b988c8aa154df278f2faa5667
 
-COCOAPODS: 1.11.2
+COCOAPODS: 1.15.2

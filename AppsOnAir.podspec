@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AppsOnAir'
-  s.version          = '0.1.5'
+  s.version          = '0.1.7'
   s.summary          = 'AppsOnAir is library for managing app updates and its maintenance.'
 
   s.description      = 'AppsOnAir is library for managing app updates and its maintenance. It will handle from out web portal.'
@@ -23,5 +23,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'AppsOnAirSDK/Classes/**/*'
   s.resources = ['AppsOnAirSDK/Assets/AppUpdate.storyboard']
+  
+  s.dependency 'ReachabilitySwift'
   
 end

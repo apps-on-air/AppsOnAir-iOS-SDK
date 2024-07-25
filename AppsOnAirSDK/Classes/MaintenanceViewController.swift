@@ -53,7 +53,7 @@ class MaintenanceViewController: UIViewController {
         self.updateButton.backgroundColor = UIColor(hex: "#007AFF")
         self.updateButton.layer.cornerRadius = 4.0
         
-        let isMaintenanceAvailable = self.updateDataDictionary?.value(forKey: "isMaintenance") as! Bool
+        let isMaintenanceAvailable = self.updateDataDictionary?.value(forKey: "isMaintenance") as? Bool ?? false
         let iosUpdate = self.updateDataDictionary?.value(forKeyPath: "updateData.isIOSUpdate") as? Bool
         
         if iosUpdate == true {
@@ -69,8 +69,8 @@ class MaintenanceViewController: UIViewController {
                     }
                     let versionCompare = Bundle.main.releaseVersionNumber!.compare(iosMinBuildVersion!, options: .numeric)
                     if versionCompare == .orderedSame {
-                        let builNumber = Bundle.main.buildVersionNumber!.compare(iosMinBuildNumber!, options: .numeric)
-                        if builNumber == .orderedAscending {
+                        let buildNumber = Bundle.main.buildVersionNumber!.compare(iosMinBuildNumber!, options: .numeric)
+                        if buildNumber == .orderedAscending {
                             self.showUpdateView(isForceUpdate!)
                         } else {
                             self.dismissController()
@@ -89,10 +89,17 @@ class MaintenanceViewController: UIViewController {
                 self.customMaintenanceView.isHidden = false
                 self.staticMaintenanceView.isHidden = true
                 self.updateView.isHidden = true
-                self.appTitleText.text = Bundle.main.appName
+                
+                //check if app name is available or not if yes then assign app name.
+                if let appTitle = Bundle.main.appName {
+                    self.appTitleText.text = appTitle
+                }
+                
+                //check if maintenance logo image is available or not if yes then get from maintenance data
                 if let imageUrlStr = maintenanceData.value(forKey: "image") as? String {
-                    let imageUrl = URL(string: imageUrlStr)
-                    self.maintenanceLogoImageView.load(url: imageUrl!)
+                    if let imageUrl = URL(string: imageUrlStr) {
+                        self.maintenanceLogoImageView.load(url: imageUrl)
+                    }
                 }
                 if let bgColorCode = maintenanceData.value(forKey: "backgroundColorCode") as? String {
                     self.maintenanceView.backgroundColor = UIColor(hex: bgColorCode)
@@ -115,7 +122,11 @@ class MaintenanceViewController: UIViewController {
                 self.staticMaintenanceView.isHidden = false
                 self.updateView.isHidden = true
                 self.staticMaintenanceImageView.image = UIImage.appIcon
-                self.staticMaintenanceText.text = "\(Bundle.main.appName!) app is under maintenance"
+                
+                //check if app name is available or not if yes then assign app name.
+                if let appTitle = Bundle.main.appName {
+                    self.maintenanceTitleText.text = "\(appTitle) app is under maintenance"
+                }
                 self.staticMaintenanceText.sizeToFit()
             }
         } else {
@@ -126,7 +137,11 @@ class MaintenanceViewController: UIViewController {
     func showUpdateView(_ isForceUpdate: Bool) {
         self.view.backgroundColor = UIColor(hex: "#00000080")
         self.logoImageView.image = UIImage.appIcon
-        self.titleText.text = "\(Bundle.main.appName!) app update available"
+        
+        //check if app name is availble or not if yes then assign app name.
+        if let titleValue = Bundle.main.appName {
+            self.titleText.text = "\(titleValue) app update available"
+        }
         if isForceUpdate == true {
             self.subTitleText.text = "An update is available that must be installed."
         } else {
