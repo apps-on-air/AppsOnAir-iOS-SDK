@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AppsOnAir'
-  s.version          = '0.1.6'
+  s.version          = '0.1.7'
   s.summary          = 'AppsOnAir is library for managing app updates and its maintenance.'
 
   s.description      = 'AppsOnAir is library for managing app updates and its maintenance. It will handle from out web portal.'
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://doc.dev.appsonair.com/Mobile-Quickstart/ios-sdk-setup'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'devtools-logicwind' => 'devtools@logicwind.com' }
-  s.source           = { :git => 'https://github.com/vishal-zaveri-us/AppsOnAir-iOS-SDK', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/apps-on-air/AppsOnAir-iOS-SDK.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '10.0'
   s.swift_version = '5.0'
