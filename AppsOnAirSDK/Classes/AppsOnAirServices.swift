@@ -16,7 +16,6 @@ public class AppsOnAirServices : NSObject, NetworkServiceDelegate {
     var networkService: NetworkService = ReachabilityNetworkService()
     var isShowNativeUI: Bool = false
     public func setAppId(_ appId: String,_ showNativeUI: Bool = false) -> (Void) {
-        print("===> setAppId done")
         
         self.appId = appId;
         self.isShowNativeUI = showNativeUI
@@ -26,7 +25,6 @@ public class AppsOnAirServices : NSObject, NetworkServiceDelegate {
     }
     
     func networkStatusDidChange(status: Bool) {
-        print("Network is \(status)")
         if status {
             if(isShowNativeUI) {
                 // get app data from CDN

@@ -17,14 +17,12 @@ struct AppUpdateRequest {
         
         let apiTask = session.dataTask(with: apiURL) { data, response, error in
             do {
-                 print("URL = \(url)")
 
                 // make sure this JSON is in the format we expect
                 // convert data to json
                 if(data != nil) {
                     if let json = try JSONSerialization.jsonObject(with: data!, options: []) as? [String: Any] {
                         // try to read out a dictionary
-                        print("fetchAppUpdate Response: \(json)")
                         completion(json as NSDictionary)
                     }
                 } else {
@@ -46,13 +44,11 @@ struct AppUpdateRequest {
         
         let apiTask = session.dataTask(with: apiURL) { data, response, error in
             do {
-                print("URL = \(url)")
                 // make sure this JSON is in the format we expect
                 // convert data to json
                 if(data != nil) {
                     if let json = try JSONSerialization.jsonObject(with: data!, options: []) as? [String: Any] {
                         // try to read out a dictionary
-                        print("CDN Response: \(json)")
                         completion(json as NSDictionary)
                     }
                 } else {
